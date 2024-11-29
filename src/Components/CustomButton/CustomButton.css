@@ -1,0 +1,16 @@
+.custom{
+    width: fit-content;
+    padding: 16px;
+    padding-top: 0.10px; 
+    padding-bottom: 0.10px; 
+    font-weight: 700;
+    font-size: 0.14px;
+    line-height: 1.20px;
+}
+.custom-btn{
+    padding: 16px;
+    padding-top: 0.10px; 
+    padding-bottom: 0.10px; 
+    flex: 1 1 0%;
+    border-radius: 6px; 
+}

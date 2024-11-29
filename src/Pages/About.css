@@ -1,0 +1,50 @@
+.about-me-container{
+  position: absolute;
+  top: 110px;
+}
+
+.container {
+  display: flex;
+}
+
+.side-menu {
+  width: 200px;
+  position: sticky;
+  top: 110px;
+  height: 360px;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-menu li {
+  margin: 10px 0;
+}
+
+.side-menu a {
+  text-decoration: none;
+  color: #000;
+}
+
+.side-menu a.active {
+  font-weight: bold;
+  color: #212EA0;
+}
+
+.content {
+  margin-left: 20px;
+  padding: 20px;
+  flex: 1;
+}
+
+.content h1 {
+  color: #212EA0;
+}
+
+.content h2 {
+  margin-top: 50px;
+}

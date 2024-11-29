@@ -1,0 +1,54 @@
+.main {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  padding: 30px;
+  display: flex;
+  height: 76vh;
+  width: 80vw;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.home{
+  height: 100%;
+}
+
+.home-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.head-text {
+  font-size: 100px;
+}
+
+.home-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-text {
+  max-width: 448px;
+  font-weight: 400;
+  color: rgb(75 85 99);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.canvas {
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+.main-right{
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}

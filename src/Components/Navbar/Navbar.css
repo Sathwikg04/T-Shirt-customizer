@@ -1,0 +1,101 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 130px;
+    color: white;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    position: fixed;
+    gap: 520px;
+} 
+
+.nav-logo{
+    font-family: Outfit;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 90px;
+}
+
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 38px;
+    background-color: #fff;
+    color: #262626;
+    cursor: pointer;
+}
+
+.link{
+  cursor: pointer;
+  text-decoration: inherit;
+  color: white;
+}
+.link-contact{
+  cursor: pointer;
+  text-decoration: inherit;
+}
+
+.dark-nav{
+  background: #212EA0;
+  transition: 0.5s;
+  color: white;
+}
+
+.nav-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 130px;
+  color: black;
+  top: 0;
+  left: 0;
+  position: fixed;
+  gap: 520px;
+}
+.nav-contact-about{
+  border-radius: 50px;
+  padding: 10px 38px;
+  background-color: #a19c9c;
+  color: #262626;
+  cursor: pointer;
+}
+.link-about{
+cursor: pointer;
+text-decoration: inherit;
+color: black;
+}
+
+.nav-product{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 130px;
+  color: black;
+  top: 0;
+  left: 0;
+  position: static;
+  gap: 520px;
+}
+
+@media(max-width:1280px){
+  .nav{
+    gap: 50%;
+  }
+}
+
+@media(max-width:1024px){
+}
+
+@media(max-width:800px){
+}
+
+@media(max-width:500px){
+}
