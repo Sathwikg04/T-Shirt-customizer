@@ -6,10 +6,8 @@
 }
 
 .editor-tab {
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    width: 64px;
+    min-height: 50vh;
+    width: 96px;
     border: 2px solid;
     border-radius: 8px;
     display: flex;
@@ -17,6 +15,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 4px;
+    margin-top: 5vh;
     padding-top: 16px;
     padding-bottom: 16px;
     gap: 16px;
@@ -28,11 +27,17 @@
 }
 
 .back-tab {
-
     position: absolute;
     z-index: 10;
     right: 20px;
     top: 20px;
+}
+
+.order-tab{
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    right: 20px;
 }
 
 .filtertabs-container {
@@ -98,10 +103,18 @@
 .filepicker-container {
     display: flex;
     flex-direction: column;
+    position: absolute;
+    left: 100%;
+    margin-left: 12px;
+    margin-top: 12px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
-.filepicker-container .flex-1 {
-    flex-grow: 1;
+.filepicker-input{
+    flex: 1 1 0%;
     display: flex;
     flex-direction: column;
 }

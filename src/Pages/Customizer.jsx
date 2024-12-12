@@ -94,7 +94,13 @@ const Customizer = () => {
                 <Tab 
                 key={tab.name}
                 tab={tab}
-                handleClick={()=>setActiveEditorTab(tab.name)}/>
+                handleClick={()=>{
+                  if (activeEditorTab === tab.name) {
+                    setActiveEditorTab("")
+                  } else {
+                    setActiveEditorTab(tab.name)
+                  };
+                  }}/>
               ))}
 
               {generateTabContent()}
@@ -105,6 +111,13 @@ const Customizer = () => {
           className='back-tab' 
           {...fadeAnimation}>
             <CustomButton type="filled" title="Go Back"
+            handleClick={() => state.intro = true}/> 
+          </motion.div>
+
+          <motion.div 
+          className='order-tab' 
+          {...fadeAnimation}>
+            <CustomButton type="filled" title="Place Order"
             handleClick={() => state.intro = true}/> 
           </motion.div>
 

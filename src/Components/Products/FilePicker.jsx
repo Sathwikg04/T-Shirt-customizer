@@ -1,11 +1,10 @@
 import React from 'react'
-
 import CustomButton from '../CustomButton/CustomButton'
 
 const FilePicker = ({ file, setFile, readFile }) => {
   return (
     <div className="filepicker-container">
-      <div className="flex-1">
+      <div className="filepicker-input">
         <input 
           id="file-upload"
           type="file"
@@ -16,7 +15,7 @@ const FilePicker = ({ file, setFile, readFile }) => {
           Upload File
         </label>
 
-        <p>
+        <p className='filepicker-text'>
           {file === '' ? "No file selected" : file.name}
         </p>
       </div>
